@@ -22,3 +22,5 @@ try:
     print('csv file successfully created')
 except PermissionError as msg:
     print('Error: Please close the file from other apps before editing')
+finally: 
+	print('Ended the program')
